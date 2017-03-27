@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/ic_home_black"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_startsiets"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Startseite" />
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@mipmap/ic_shopping_cart"
+            android:title="Shopping Cart" />
+        <item
+            android:id="@+id/nav_categorie"
+            android:icon="@mipmap/ic_store_black"
+            android:title="List of Categories" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@mipmap/ic_account_circle"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@mipmap/ic_input_black"
+            android:title="Login" />
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@mipmap/ic_today_black"
+            android:title="News" />
+        <item
+            android:id="@+id/nav_job"
+            android:icon="@mipmap/ic_work_black"
+            android:title="Jobs" />
+        <item
+            android:id="@+id/nav_guestbook"
+            android:icon="@mipmap/ic_book_black"
+            android:title="GuestBook" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_share"
+                android:title="About Us"/>
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@mipmap/ic_contact_mail"
+                android:title="Contact"/>
+
+
+        </menu>
+    </item>
+
+</menu>
